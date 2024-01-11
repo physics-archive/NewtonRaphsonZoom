@@ -35,7 +35,10 @@ for k=2:1:20
         %Reduction by 10% following each iteration.
 end
 
-%ITERATE EXPORT_FIG
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COMPUTATIONAL ENGINE    %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %NEED LOGARITHMIC ZOOMING. 5 OR 10%.
 for scope = 0.001:0.001:2 
     index = 1000*scope;
